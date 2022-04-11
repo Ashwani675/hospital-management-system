@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-
+import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div>
@@ -35,11 +35,11 @@ const Header = () => {
     </div>
     <div className="subheader">
           <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>APPOINTMENT</li>
-            <li>CONTACT</li>
-            <li>LOG IN</li>
+            <li><Link to='/'>HOME</Link></li>
+            <li><Link to='/about'>ABOUT</Link></li>
+            <li><Link to='/appointment'>APPOINTMENT</Link></li>
+            <li><Link to='/contact'>CONTACT</Link></li>
+            <li><Link to='/login'>LOG IN</Link></li>
           </ul>
         </div>
     </div>

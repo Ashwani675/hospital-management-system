@@ -86,7 +86,11 @@ ul li{
     padding: 20px 20px;
     margin: 0px 10px;
 }
-ul li:hover{
+ul li a:hover{
     color:teal;
     cursor:pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
 }
